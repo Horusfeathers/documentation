@@ -20,12 +20,12 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
-# -- General configuration ------------------------------------------------
+# -- General Configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
-# Add any Sphinx extension module names here, as strings. They can be
+# Add any Sphinx extension module names here as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
 
-# The master toctree document.
+# The master doctree document.
 master_doc = 'index'
 
 # General information about the project.
@@ -75,7 +75,7 @@ release = '1.0'
 # directories to ignore when looking for source files.
 exclude_patterns = ['_build']
 
-# The reST default role (used for this markup: `text`) to use for all
+# The RST default role (used for this markup: `text`) to use for all
 # documents.
 #default_role = None
 
@@ -106,8 +106,8 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 html_theme = 'default'
 
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
+# Theme options are theme-specific and customize the look and feel of a theme.
+# For a list of options available for each theme, see the
 # documentation.
 #html_theme_options = {}
 
@@ -127,7 +127,7 @@ html_theme = 'default'
 html_logo = 'images/Horizen_UBD_white.svg'
 
 # The name of an image file (within the static path) to use as favicon of the
-# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+# docs.  This file should be a Windows icon file (.ico) being  16x16 or 32x32
 # pixels large.
 html_favicon = 'images/Horizen_favicon_32x32.png'
 
@@ -197,7 +197,7 @@ html_static_path = ['_static']
 htmlhelp_basename = 'Horizen Sidechains SDK'
 
 
-# -- Options for LaTeX output ---------------------------------------------
+# -- Options for LaTeX Output ---------------------------------------------
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -239,7 +239,7 @@ latex_documents = [
 #latex_domain_indices = True
 
 
-# -- Options for manual page output ---------------------------------------
+# -- Options for Manual Page Output ---------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
@@ -252,7 +252,7 @@ man_pages = [
 #man_show_urls = False
 
 
-# -- Options for Texinfo output -------------------------------------------
+# -- Options for Texinfo Output -------------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
